@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b8b4035-9dc3-4753-b4a7-e37f9d6d1eec" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01 - JavaScript Drum Kit/index-FINISHED.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01 - JavaScript Drum Kit/index-START.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01 - JavaScript Drum Kit/app.js" afterPath="$PROJECT_DIR$/01 - JavaScript Drum Kit/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01 - JavaScript Drum Kit/index-START.html" afterPath="$PROJECT_DIR$/01 - JavaScript Drum Kit/index-START.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01 - JavaScript Drum Kit/style.css" afterPath="$PROJECT_DIR$/01 - JavaScript Drum Kit/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,16 +21,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index-START.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 - JavaScript Drum Kit/index-START.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01 - JavaScript Drum Kit/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,18 +34,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01 - JavaScript Drum Kit/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-FINISHED.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 - JavaScript Drum Kit/index-FINISHED.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -77,8 +58,8 @@
       <list>
         <option value="$PROJECT_DIR$/01 - JavaScript Drum Kit/sounds/app.js" />
         <option value="$PROJECT_DIR$/01 - JavaScript Drum Kit/index-START.html" />
-        <option value="$PROJECT_DIR$/01 - JavaScript Drum Kit/app.js" />
         <option value="$PROJECT_DIR$/01 - JavaScript Drum Kit/style.css" />
+        <option value="$PROJECT_DIR$/01 - JavaScript Drum Kit/app.js" />
       </list>
     </option>
   </component>
@@ -216,12 +197,12 @@
       <workItem from="1497904355923" duration="341000" />
       <workItem from="1497925106001" duration="2367000" />
       <workItem from="1498277974701" duration="4047000" />
-      <workItem from="1498417271778" duration="390000" />
+      <workItem from="1498417271778" duration="1240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7145000" />
+    <option name="totallyTimeSpent" value="7995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="167" y="22" width="1149" height="602" extended-state="0" />
@@ -364,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01 - JavaScript Drum Kit/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
           <folding />
         </state>
       </provider>

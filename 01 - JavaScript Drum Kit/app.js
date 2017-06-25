@@ -3,11 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     //visual effects
    var btns = document.querySelectorAll('.key');
 
-    // var play = function() {
-    //     this.className = 'key playing';
-    //     console.log(this);
-    // }
-
     var play = function (event) {
 
         if (event.keyCode) {
@@ -18,33 +13,30 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             var code = this.dataset.key,
                 btn = this;
-
-
         }
 
+        //select a sound that matches a key code
         var sound = document.querySelector('audio[data-key="' + code + '"]');
-
 
         //stop if there is no audio element
         if(!sound) return;
 
+        sound.currentTime = 0
         sound.play();
 
-        console.log(btn.className);
+        //add transformation
         btn.classList.add('playing');
-        //btn.setAttribute('class', 'key playing');
-
-        //.className('playing');
-        // btns.querySelector('[data-key="' + event.keyCode + '"')//.className('playing')
 
     }
 
 
+    //play sound on click or keydown
     for (var i = 0, len = btns.length; i < len; i++) {
 
         btns[i].addEventListener('click', play);
-        console.log(btns[i].dataset.key);
-
+        btns[i].addEventListener('transitionend', function(e) {
+                this.classList.remove('playing');
+        });
    }
 
    window.addEventListener('keydown', play);
