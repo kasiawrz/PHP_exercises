@@ -1,13 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-console.log('hi');
     //changing base color
     const base = document.getElementById('base');
     const img = document.querySelector('img');
+    const js = document.querySelector('.hl');
 
-    img.style.backgroundColor = base.value
+    img.style.backgroundColor = base.value;
+    js.style.color = base.value;
+
     base.addEventListener('change', function() {
         img.style.backgroundColor = base.value;
+        js.style.color = base.value;
     })
 
     //spacing
