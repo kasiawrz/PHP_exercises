@@ -1,11 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    panels = document.querySelectorAll('.panel');
+    const panels = document.querySelectorAll('.panel');
 
-    for (var i = 0; i < panels.length; i++) {
-        panels[i].addEventListener('click', function() {
-
-            this.classList.toggle('open');
-        });
+    function toggle() {
+        this.classList.toggle('open');
     }
+
+    panels.forEach(panel => panel.addEventListener('click', toggle));
+    // panels.forEach(panel => panel.addEventListener('transitionend', (e) => console.log(e.propertyName)));
+
 });
